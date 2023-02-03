@@ -15,8 +15,8 @@ import {
 
 const loadFonts = async () => {
   await Font.loadAsync({
-    "Roboto-Regular": require("./img/fonts/Roboto/Roboto-Regular.ttf"),
-    "Roboto-Bold": require("./img/fonts/Roboto/Roboto-Bold.ttf"),
+    "Roboto-Regular": require("./assets/fonts/Roboto-Regular.ttf"),
+    "Roboto-Bold": require("./assets/fonts/Roboto-Bold.ttf"),
   });
 };
 
